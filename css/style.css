@@ -1526,6 +1526,87 @@ footer {
         font-weight: 700;
     }
 
+    /* Doubt */
+    .doubt-page {
+        height: 100vh;
+    }
+    .page-heading-text {
+        font-size: 35px;
+    }
+    .doubt-heading-right {
+        position: relative;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .heading-block {
+        /*border: red solid 2px;*/
+        min-height: auto;
+        font-size: 15px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .doubt-middle {
+        /*border: solid 2px green;*/
+
+        display: flex;
+        align-items: flex-end;
+        /*height: 50%;*/
+
+        position: relative;
+    }
+
+    .look-posts {
+        width: 50%;
+        height: 100%;
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        /*border: solid 2px red;*/
+        margin-top: 20px;
+    }
+    .look-posts-btn, .look-posts-text {
+        height: 50%;
+
+        padding: 20px;
+        /*border: solid black 2px;*/
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .look-posts-btn {
+        width: 100%;
+
+        justify-content: center;
+    }
+    .look-text-block {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        font-family: Bahnschrift;
+
+        display: flex;
+        align-items: center;
+    }
+
+    #posts-btn {
+        position: relative;
+        /*top: 5%;*/
+        /*left: 0;*/
+
+
+        width: 100%;
+        font-size: 12px;
+        border-radius: 8px;
+
+        padding: 5px;
+    }
 
     /* Services */
     .serv-logo-block {
