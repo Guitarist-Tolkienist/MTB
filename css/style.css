@@ -1551,7 +1551,7 @@ footer {
         align-items: center;
     }
     .doubt-middle {
-        /*border: solid 2px green;*/
+        border: solid 2px green;
 
         display: flex;
         align-items: flex-end;
@@ -1613,7 +1613,7 @@ footer {
         margin-right: 0;
     }
     .contacts-logo-heading {
-        font-size: 85px;
+        font-size: 84px;
     }
 
     .services-item-text {
