@@ -1539,7 +1539,34 @@ footer {
         font-weight: 700;
     }
 
-    /* Forn */
+    /* Services */
+    .services-item-text {
+        width: 60%;
+
+        font-size: 17px;
+    }
+    .services-item-icon {
+        /*border: solid 2px orange;*/
+        height: 50%;
+        width: 40%;
+        max-width: 40%;
+        padding: 10px 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .services-item-icon>img {
+        /*border: solid 2px blue;*/
+        height: 80%;
+        width: 80%;
+    }
+
+    /*Our Works */
+    .our-works {
+        height: 80vh;
+    }
+    /* Form */
     .form-block {
         padding: 15px 25px;
     }
