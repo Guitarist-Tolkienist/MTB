@@ -846,7 +846,7 @@ header {
     display: flex;
     justify-content: flex-end;
 }
-.serv-logo {
+.serv-logo-block {
     text-shadow: 2px 2px 4px #000000;
     font-size: 100px;
     font-weight: 1000;
@@ -1539,10 +1539,17 @@ footer {
         font-weight: 700;
     }
 
+
     /* Services */
+    .serv-logo-block {
+        margin-right: 0;
+    }
+    .contacts-logo-heading {
+        font-size: 85px;
+    }
+
     .services-item-text {
         width: 60%;
-
         font-size: 17px;
     }
     .services-item-icon {
@@ -1561,11 +1568,16 @@ footer {
         height: 80%;
         width: 80%;
     }
+    .services-item:after {
+        display: none;
+    }
 
     /*Our Works */
     .our-works {
         height: 80vh;
     }
+
+
     /* Form */
     .form-block {
         padding: 15px 25px;
