@@ -39,7 +39,7 @@ body {
     background-color: transparent;
     z-index: 1;
 
-    border: solid 2px blue;
+    /*border: solid 2px blue;*/
 }
 
 header {
@@ -870,6 +870,8 @@ header {
 .our-works-heading-block {
     display: flex;
     justify-content: flex-end;
+
+
 }
 .our-works-heading {
     width: 30%;
@@ -883,13 +885,15 @@ header {
 /* Our Clients*/
 .our-clients-page {
     height: 80vh;
+
+    display: flex;
+    flex-direction: column;
 }
 .our-clients-heading-block {
     height: 25%;
     display: flex;
     justify-content: flex-start;
-
-    /*border: solid red 2px;*/
+    /*border: red 2px solid;*/
 }
 .our-clients-heading {
     width: 30%;
@@ -910,7 +914,7 @@ header {
     align-items: center;
 }
 .our-clients {
-    /*border: solid yellowgreen 2px;*/
+    /*border: solid blue 2px;*/
 }
 .clients-row {
     display: flex;
@@ -1361,8 +1365,18 @@ footer {
         /*display: none;*/
     }
     footer {
-        display: none;
+        flex-direction: column;
+        align-items: center;
     }
+    .footer-block {
+        flex-direction: column;
+
+        font-size: 14px;
+    }
+    .footer-rights {
+
+    }
+
     .triangle {
         display: none;
     }
@@ -1525,7 +1539,10 @@ footer {
         font-weight: 700;
     }
 
-
+    /* Forn */
+    .form-block {
+        padding: 15px 25px;
+    }
 
 
 }

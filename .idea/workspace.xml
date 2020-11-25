@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03d99e09-3c30-49a3-9d31-0c4ccfe26a4b" name="Default Changelist" comment="improved sliding card effect">
+    <list default="true" id="03d99e09-3c30-49a3-9d31-0c4ccfe26a4b" name="Default Changelist" comment="debugged">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -74,7 +74,7 @@
       <workItem from="1605985778385" duration="1297000" />
       <workItem from="1606141652459" duration="2217000" />
       <workItem from="1606150879162" duration="5001000" />
-      <workItem from="1606302219529" duration="26266000" />
+      <workItem from="1606302219529" duration="27452000" />
     </task>
     <task id="LOCAL-00001" summary=".catalog-but-page {&#10;        display: none;&#10;    }">
       <created>1606309720512</created>
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606330698402</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="debugged">
+      <created>1606335323296</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606335323296</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +148,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="sliding card effect" />
     <MESSAGE value="improved sliding card effect" />
-    <option name="LAST_COMMIT_MESSAGE" value="improved sliding card effect" />
+    <MESSAGE value="debugged" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugged" />
   </component>
   <component name="WindowStateProjectService">
     <state x="500" y="141" width="447" height="482" key="FileChooserDialogImpl" timestamp="1606318760565">
@@ -161,10 +169,10 @@
       <screen x="59" y="24" width="1309" height="744" />
     </state>
     <state x="207" y="24" key="SettingsEditor/59.24.1309.744@59.24.1309.744" timestamp="1606306852233" />
-    <state x="313" y="119" key="Vcs.Push.Dialog.v2" timestamp="1606330699970">
+    <state x="313" y="119" key="Vcs.Push.Dialog.v2" timestamp="1606335339186">
       <screen x="59" y="24" width="1309" height="744" />
     </state>
-    <state x="313" y="119" key="Vcs.Push.Dialog.v2/59.24.1309.744@59.24.1309.744" timestamp="1606330699970" />
+    <state x="313" y="119" key="Vcs.Push.Dialog.v2/59.24.1309.744@59.24.1309.744" timestamp="1606335339186" />
     <state x="376" y="168" key="run.anything.popup" timestamp="1606330604368">
       <screen x="59" y="24" width="1309" height="744" />
     </state>
