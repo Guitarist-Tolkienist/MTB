@@ -1268,7 +1268,6 @@ footer {
 
 .triangle {
     position: absolute;
-
     width: 0;
     height: 0;
 
@@ -1395,9 +1394,9 @@ MEDIA
     .page-screen {
         /*border: solid 2px blue;*/
         width: 100%;
+        max-height: 100%;
         height: auto;
-
-        /*display: none;*/
+        /*border: 2px red solid;*/
     }
 
     .triangle {
@@ -1420,7 +1419,15 @@ MEDIA
     }
 
     /* Navbar */
+    header {
+        width: 100%;
+        max-height: 100%;
+
+        /*display: none;*/
+    }
     .navbar {
+        width: 100%;
+        max-height: 100%;
         width: 100%;
         position: absolute;
         top: 0;
@@ -1434,6 +1441,9 @@ MEDIA
     .slider {
         height: 55vh;
         width: 100%;
+
+        overflow-x: hidden;
+        /*display: none;*/
     }
     .slick-list {
         height: 100%;
@@ -1477,7 +1487,6 @@ MEDIA
         /*border: solid 2px red;*/
         display: flex;
         justify-content: center;
-        /*align-items: center;*/
 
         z-index: 1;
     }
@@ -1555,6 +1564,7 @@ MEDIA
     /* Catalog  */
     .catalog-but-page {
         height: 100vh;
+
         /*display: none;*/
     }
     #train-main-heading, .under-heading{
@@ -1837,6 +1847,9 @@ MEDIA
     }
 
     /* Services */
+    .mtb-services {
+        display: none;
+    }
     .serv-cont {
         /*border: 2px solid green;*/
         padding: 10px 20px;
@@ -1899,6 +1912,13 @@ MEDIA
     .our-works {
         height: 80vh;
     }
+    /* Clients */
+    .our-clients-page {
+    }
+    .clients-item {
+        margin-left: 0;
+    }
+
     .our-works-heading, .our-clients-heading {
         width: auto;
     }
@@ -1955,15 +1975,11 @@ MEDIA
         justify-content: center;
     }
 
-    /* Clients */
-    .clients-item {
-        margin-left: 0;
-    }
-
     /* Form */
     .form-block {
         padding: 15px 25px;
     }
+    .contacts-logo-form-
 
     /* Footer */
     footer {
@@ -1976,6 +1992,9 @@ MEDIA
         flex-direction: column;
 
         font-size: 14px;
+    }
+    #submit-but {
+        justify-content: center;
     }
 
 }
