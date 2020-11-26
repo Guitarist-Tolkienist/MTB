@@ -1440,10 +1440,11 @@ MEDIA
 
     /* SLider */
     .slider {
-        height: 55vh;
+        height: 50vh;
         width: 100%;
 
         overflow-x: hidden;
+        overflow-y: hidden;
         /*display: none;*/
     }
     .slick-list {
@@ -1453,6 +1454,7 @@ MEDIA
     .slick-track {
         height: 100%;
         width: 100%;
+        /*border: red solid 2px;*/
     }
     .slick-dots {
         bottom: 15%;
@@ -1461,6 +1463,14 @@ MEDIA
 
     .slider-front-heading {
         display: none;
+    }
+    .slick-track {
+        user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
     }
     .slick-slide {
         height: 100%;
@@ -1475,7 +1485,7 @@ MEDIA
     .slider-image-block>img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        /*object-fit: cover;*/
     }
 
     /* Train Items */

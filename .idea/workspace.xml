@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03d99e09-3c30-49a3-9d31-0c4ccfe26a4b" name="Default Changelist" comment="- centered text in footer;&#10;- changed train-items sizes">
+    <list default="true" id="03d99e09-3c30-49a3-9d31-0c4ccfe26a4b" name="Default Changelist" comment="aa">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +93,7 @@
       <workItem from="1606150879162" duration="5001000" />
       <workItem from="1606302219529" duration="32468000" />
       <workItem from="1606385243850" duration="16433000" />
-      <workItem from="1606404534277" duration="14658000" />
+      <workItem from="1606404534277" duration="16010000" />
     </task>
     <task id="LOCAL-00001" summary=".catalog-but-page {&#10;        display: none;&#10;    }">
       <created>1606309720512</created>
@@ -284,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606420344975</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="aa">
+      <created>1606420949353</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1606420949353</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +330,8 @@
     <MESSAGE value="aaa" />
     <MESSAGE value="logo added;&#10;images in slider no more stretches" />
     <MESSAGE value="- centered text in footer;&#10;- changed train-items sizes" />
-    <option name="LAST_COMMIT_MESSAGE" value="- centered text in footer;&#10;- changed train-items sizes" />
+    <MESSAGE value="aa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aa" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="208" key="#Notifications" timestamp="1606338251859">
@@ -347,10 +355,10 @@
       <screen x="59" y="24" width="1309" height="744" />
     </state>
     <state x="207" y="24" key="SettingsEditor/59.24.1309.744@59.24.1309.744" timestamp="1606306852233" />
-    <state x="313" y="119" key="Vcs.Push.Dialog.v2" timestamp="1606420346683">
+    <state x="313" y="119" key="Vcs.Push.Dialog.v2" timestamp="1606420952677">
       <screen x="59" y="24" width="1309" height="744" />
     </state>
-    <state x="313" y="119" key="Vcs.Push.Dialog.v2/59.24.1309.744@59.24.1309.744" timestamp="1606420346683" />
+    <state x="313" y="119" key="Vcs.Push.Dialog.v2/59.24.1309.744@59.24.1309.744" timestamp="1606420952677" />
     <state x="376" y="168" key="run.anything.popup" timestamp="1606330604368">
       <screen x="59" y="24" width="1309" height="744" />
     </state>
