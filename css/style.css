@@ -659,7 +659,7 @@ header {
 .look-posts-btn, .look-posts-text {
     height: 50%;
 
-    padding: 20px;
+    padding: 10px 20px;
     position: relative;
 }
 .look-posts-text {
@@ -682,15 +682,18 @@ header {
     /*border: solid red 2px;*/
 
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-left: 0;
 }
 #posts-btn {
-    position: absolute;
-    top: 5%;
-    right: 10%;
+    /*position: absolute;*/
+    /*top: 5%;*/
+    /*right: 10%;*/
 
     width: 40%;
+    height: 35%;
     font-size: 17px;
     border-radius: 8px;
 
@@ -920,6 +923,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     /*border: solid yellowgreen 2px;*/
+    position: relative;
 }
 .clients-item {
     background-color: transparent;
@@ -927,8 +931,8 @@ header {
     height: 130px;
     padding: 0;
 
-    margin-left: 40px;
-    margin-bottom: 20px;
+    /*margin-left: 20px;*/
+    /*margin-bottom: 20px;*/
     /*border: solid 2px red;*/
 }
 .clients-item-card {
@@ -1560,6 +1564,104 @@ footer {
         position: relative;
     }
 
+    /* Выноска */
+    .feedback-block {
+        /*border: solid 2px red;*/
+        /*width: 50%;
+        height: 100%;
+        position: relative;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        margin-top: 20px;*/
+    }
+    .feedback {
+        width: 100%;
+        height: 100%;
+
+        position: relative;
+
+        display: flex;
+        align-items: center;
+        /*border: solid 2px blue;*/
+    }
+    .girl-img {
+        display: flex;
+        align-items: center;
+
+        width: 50%;
+        height: 100%;
+        position: relative;
+        /*border: solid 2px blueviolet;*/
+    }
+    .girl-img>img {
+        width: 100%;
+        position: relative;
+    }
+
+    .bubble-block {
+        display: block;
+        width: 50%;
+        height: 100%;
+        position: relative;
+        /*border: solid 2px yellow;*/
+    }
+
+    .bubble {
+        border-radius: 2px;
+        min-height: 10%;
+        height: 15%;
+        min-width: 90%;
+        width: 175%;
+
+        padding: 1px 5px;
+        display: flex;
+        justify-content: center;
+
+        top: 25%;
+        left: -70%;
+        position: absolute;
+
+        background: rgba(253, 253, 253, 1);
+        color: black;
+
+        -webkit-box-shadow: 0px 10px 25px 5px rgba(0,0,0,0.3);
+        box-shadow: 0px 10px 25px 5px rgba(0,0,0,0.3);
+    }
+    .bubble:before,
+    .bubble:after {
+        content: '';
+        position: absolute;
+        background: floralwhite;
+        left: 18px;
+        bottom: -10px;
+        width: 20px;
+        height: 20px;
+        box-shadow: 0 0 7px #000;
+        z-index: -1;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+    .bubble:before {
+        z-index: 1;
+        box-shadow: none;
+    }
+    .speech {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        text-align: left;
+
+        font-size: 8px;
+        font-weight: 700;
+        line-height: 25px;
+        width: 95%;
+        position: relative;
+        z-index: 20;
+    }
+
     .look-posts {
         width: 50%;
         height: 100%;
@@ -1567,7 +1669,7 @@ footer {
 
         display: flex;
         flex-direction: column;
-        /*border: solid 2px red;*/
+        /*border: solid 2px blue;*/
         margin-top: 20px;
     }
     .look-posts-btn, .look-posts-text {
@@ -1579,6 +1681,12 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .look-posts-text {
+
+        padding: 10px 20px;
+        justify-content: flex-end;
+        align-items: flex-end;
     }
     .look-posts-btn {
         width: 100%;
@@ -1623,7 +1731,7 @@ footer {
         padding: 15px 20px;
     }
     .contacts-logo-heading {
-        border: solid 1px green;
+        /*border: solid 1px green;*/
         font-size: 79px;
     }
 
@@ -1655,11 +1763,20 @@ footer {
     .our-works {
         height: 80vh;
     }
+    .our-works-heading, .our-clients-heading {
+        width: auto;
+    }
 
     /* Contacts */
     .contacts-logo-form {
         padding: 0;
     }
+
+    /* Clients */
+    .clients-item {
+        margin-left: 0;
+    }
+
     /* Form */
     .form-block {
         padding: 15px 25px;
@@ -1674,6 +1791,18 @@ footer {
         flex-direction: column;
 
         font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+    .contacts-logo-heading {
+        /*border: solid 1px green;*/
+        font-size: 60px;
+    }
+
+    .contacts-logo-upheading {
+        font-size: 20px;
     }
 
 }
