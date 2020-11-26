@@ -481,6 +481,10 @@ header {
     font-weight: 1000;
 }
 .catalog-but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     position: absolute;
     width: 180px;
 
@@ -1398,7 +1402,7 @@ footer {
 
     /* SLider */
     .slider {
-        height: 45vh;
+        height: 55vh;
         width: 100%;
     }
     .slick-list {
@@ -1408,6 +1412,13 @@ footer {
     .slick-track {
         height: 100%;
         width: 100%;
+    }
+    .slick-dots {
+        bottom: 15%;
+        padding-left: 0;
+    }
+    .slider-front-heading {
+        display: none;
     }
     .slick-slide {
         height: 100%;
@@ -1529,10 +1540,19 @@ footer {
 
         font-weight: 700;
     }
-
+    .catalog-but {
+        width: 120px;
+        height: 35px;
+        font-size: 15px;
+    }
     /* Doubt */
     .doubt-page {
         height: 100vh;
+
+        padding: 10px 15px;
+
+        justify-content: center;
+        align-items: center;
     }
     .page-heading-text {
         font-size: 35px;
@@ -1554,16 +1574,90 @@ footer {
         justify-content: center;
         align-items: center;
     }
+    .heading-block, .doubt-footer {
+        height: 20%;
+    }
     .doubt-middle {
         /*border: solid 2px green;*/
 
         display: flex;
         align-items: flex-end;
-        /*height: 50%;*/
+        height: 50%;
+        margin-top: 0;
 
         position: relative;
     }
+    .doubt-footer-heading-block {
+        font-size: 20px;
+    }
+    .doubt-footer {
+        height: 30%;
+        margin-top: 0;
 
+        display: flex;
+        justify-content: center;
+    }
+    .prof-text-part {
+        padding-top: 0;
+    }
+
+    .look-posts {
+        width: 50%;
+        height: 100%;
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        /*border: solid 2px blue;*/
+        margin-top: 20px;
+    }
+    .look-posts-btn, .look-posts-text {
+        height: 50%;
+
+        padding: 20px;
+        /*border: solid black 2px;*/
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .look-posts-text {
+
+        padding: 10px 20px;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .look-posts-btn {
+        width: 100%;
+
+        justify-content: center;
+    }
+    .look-text-block {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        font-family: Bahnschrift;
+
+        display: flex;
+        align-items: center;
+    }
+
+    #posts-btn {
+        position: relative;
+        /*top: 5%;*/
+        /*left: 0;*/
+
+
+        width: 100%;
+        font-size: 8px;
+        border-radius: 8px;
+
+        padding: 5px;
+    }
+
+    .doubt-footer-heading-block {
+        width: 90%;
+    }
     /* Выноска */
     .feedback-block {
         /*border: solid 2px red;*/
@@ -1655,65 +1749,11 @@ footer {
         text-align: left;
 
         font-size: 8px;
-        font-weight: 700;
-        line-height: 25px;
+        font-weight: 500;
+        line-height: 10px;
         width: 95%;
         position: relative;
         z-index: 20;
-    }
-
-    .look-posts {
-        width: 50%;
-        height: 100%;
-        position: relative;
-
-        display: flex;
-        flex-direction: column;
-        /*border: solid 2px blue;*/
-        margin-top: 20px;
-    }
-    .look-posts-btn, .look-posts-text {
-        height: 50%;
-
-        padding: 20px;
-        /*border: solid black 2px;*/
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .look-posts-text {
-
-        padding: 10px 20px;
-        justify-content: flex-end;
-        align-items: flex-end;
-    }
-    .look-posts-btn {
-        width: 100%;
-
-        justify-content: center;
-    }
-    .look-text-block {
-        font-size: 14px;
-        font-weight: 500;
-        text-align: left;
-        font-family: Bahnschrift;
-
-        display: flex;
-        align-items: center;
-    }
-
-    #posts-btn {
-        position: relative;
-        /*top: 5%;*/
-        /*left: 0;*/
-
-
-        width: 100%;
-        font-size: 12px;
-        border-radius: 8px;
-
-        padding: 5px;
     }
 
     /* Services */
