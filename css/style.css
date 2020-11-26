@@ -1374,7 +1374,7 @@ footer {
 
 .footer-bottom-pink-tr {
     border-left: 75vw solid transparent;
-    border-right: 55vw solid transparent;
+    border-right: 25vw solid transparent;
     border-bottom: 300px solid var(--pink-color);
 
     bottom: 0;
