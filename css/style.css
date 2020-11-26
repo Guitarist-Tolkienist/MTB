@@ -1500,6 +1500,7 @@ MEDIA
         justify-content: center;
 
         z-index: 1;
+        /*display: none;*/
     }
     .train-items{
         /*border: solid 2px yellow;*/
@@ -1611,6 +1612,7 @@ MEDIA
 
         justify-content: center;
         align-items: center;
+        /*display: none;*/
     }
     .page-heading-text {
         font-size: 35px;
@@ -1859,7 +1861,7 @@ MEDIA
 
     /* Services */
     .mtb-services {
-        display: none;
+        /*display: none;*/
     }
     .serv-cont {
         /*border: 2px solid green;*/
@@ -1920,6 +1922,9 @@ MEDIA
     }
 
     /*Our Works */
+    .our-works-clients {
+        /*display: none;*/
+    }
     .our-works {
         height: 80vh;
     }
@@ -1935,6 +1940,9 @@ MEDIA
     }
 
     /* Contacts */
+    .contacts {
+        display: none;
+    }
     .contacts-logo-form {
         padding: 0;
     }
@@ -1944,6 +1952,7 @@ MEDIA
         /*border: red 2px solid;*/
         height: auto;
         position: relative;
+        /*display: none;*/
     }
     .our-contacts-block {
         position: relative;
@@ -1969,18 +1978,22 @@ MEDIA
     }
 
     .social-icons-block {
-        margin-top: 10px;
+        /*margin-top: 10px;*/
 
-        height: 20px;
+        height: 40px;
         /*position: relative;*/
 
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+    .social-icons {
+        padding: 0;
     }
     .address-block {
         width: 85%;
     }
-    .social-icons {
+    .social-icons s{
         padding: 0;
 
         justify-content: center;
@@ -1990,14 +2003,17 @@ MEDIA
     .form-block {
         padding: 15px 25px;
     }
-    .contacts-logo-form-
 
     /* Footer */
+    .contacts-footer-page {
+        /*display: none;*/
+    }
     footer {
         flex-direction: column;
         align-items: center;
 
         text-align: center;
+        /*display: none;*/
     }
     .footer-block {
         flex-direction: column;
