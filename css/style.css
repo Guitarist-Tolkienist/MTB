@@ -472,6 +472,7 @@ header {
 
     font-weight: 700;
 }
+
 .cat-button-block {
     width: 50%;
     position: relative;
@@ -1600,6 +1601,43 @@ footer {
     .prof-text-part {
         padding-top: 0;
     }
+
+    .catalog-button-left-text-block {
+        width: 45%;
+    }
+    .catbutton-place-headings-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .catalog-button-place-text-area {
+        border: solid blue 2px;
+        width: 100%;
+        padding: 0;
+        /*padding: 10px 0;*/
+        /*border: solid red 2px;*/
+        /*width: 75%;*/
+        /*height: 65%;*/
+
+        /*text-align: left;*/
+        font-size: 10px;
+        /*font-weight: 700;*/
+    }
+    .doubt {
+        font-weight: 700;
+        font-size: 12px
+    }
+    .button-place {
+        padding: 0;
+        /*width: 100%;*/
+        /*height: 35%;*/
+
+        /*position: absolute;*/
+        /*bottom: 0;*/
+        /*border: solid 2px red;*/
+        /*color: white;*/
+    }
+
 
     .look-posts {
         width: 50%;
