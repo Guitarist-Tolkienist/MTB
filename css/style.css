@@ -984,7 +984,7 @@ header {
     justify-content: center;
     align-items: center;
 }
-.phone-number,.email-number, .schedule-container {
+.phone-number, .email-number, .schedule-container {
     font-weight: 700;
     font-size: 20px;
 }
@@ -1019,7 +1019,7 @@ header {
 
 .our-contacts-map-block {
     /*border: solid blue 2px;*/
-    position: relative;
+    height: auto;
 }
 .our-contacts-heading-block {
     height: 20%;
@@ -1103,6 +1103,11 @@ header {
     height: 85%;
 }
 /* Contacts*/
+.contacts-footer-page {
+    background-color: var(--blue-color);
+    position: relative;
+    z-index: 1;
+}
 .contacts {
     /*background-color: var(--blue-color);*/
 
@@ -1206,12 +1211,6 @@ header {
 
     font-size: 115px;
     font-weight: 1000;
-}
-
-.contacts-footer-page {
-    background-color: var(--blue-color);
-    position: relative;
-    z-index: 1;
 }
 /* Footer */
 footer {
@@ -1417,6 +1416,7 @@ footer {
         bottom: 15%;
         padding-left: 0;
     }
+
     .slider-front-heading {
         display: none;
     }
@@ -1724,8 +1724,7 @@ footer {
         -webkit-box-shadow: 0px 10px 25px 5px rgba(0,0,0,0.3);
         box-shadow: 0px 10px 25px 5px rgba(0,0,0,0.3);
     }
-    .bubble:before,
-    .bubble:after {
+    .bubble:before, .bubble:after {
         content: '';
         position: absolute;
         background: floralwhite;
@@ -1810,6 +1809,50 @@ footer {
     /* Contacts */
     .contacts-logo-form {
         padding: 0;
+    }
+
+    /* Out contacts */
+    .our-contacts {
+        /*border: red 2px solid;*/
+        height: auto;
+        position: relative;
+    }
+    .our-contacts-block {
+        position: relative;
+        height: auto;
+    }
+    .phones-container {
+        margin-top: 30px;
+        padding: 0 20px;
+        /*border: 2px blue solid;*/
+    }
+    .our-contacts-phones-block {
+        padding: 0 20px;
+    }
+    .our-contacts-map-block {
+        /*border: green solid 2px;*/
+        height: 60vh;
+    }
+    .address-text-block {
+        font-size: 18px;
+    }
+
+    .social-icons-block {
+        margin-top: 10px;
+
+        height: 20px;
+        /*position: relative;*/
+
+        display: flex;
+        justify-content: center;
+    }
+    .address-block {
+        width: 85%;
+    }
+    .social-icons {
+        padding: 0;
+
+        justify-content: center;
     }
 
     /* Clients */
