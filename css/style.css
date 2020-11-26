@@ -1623,6 +1623,7 @@ footer {
         padding: 15px 20px;
     }
     .contacts-logo-heading {
+        border: solid 1px red;
         font-size: 79px;
     }
 
