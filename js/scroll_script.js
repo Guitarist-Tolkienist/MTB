@@ -12,10 +12,10 @@ $(document).ready(function(){
         if (wn > 1000) {
             $("#cat-btn").addClass(animateClassAnimated + " " + animateClassBounceInUp)
         } else if(wn > 800){
-            $("#train-main-heading").addClass(animateClassAnimated + " " + animateClassBackInRight)
+            // $("#train-main-heading").addClass(animateClassAnimated + " " + animateClassBackInRight)
         } else if(wn < 1100){
             if (wn < 800) {
-                $("#train-main-heading").removeClass(animateClassAnimated + " " + animateClassBackInRight)
+                // $("#train-main-heading").removeClass(animateClassAnimated + " " + animateClassBackInRight)
             }
             $("#cat-btn").removeClass(animateClassAnimated + " " + animateClassBounceInUp);
         }

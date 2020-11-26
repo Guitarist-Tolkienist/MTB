@@ -1223,7 +1223,8 @@ header {
     /*border: 2px solid yellow;*/
 }
 .contacts-logo-upheading-block {
-    /*border: 2px solid blue;*/
+    display: flex;
+    justify-content: center;
 }
 .contacts-logo-upheading {
     font-weight: 900;
@@ -1255,6 +1256,9 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+.footer-block>div {
+    text-align: center;
 }
 .footer-rights {
     /*border: solid green 2px;*/
@@ -1705,7 +1709,6 @@ MEDIA
         /*color: white;*/
     }
 
-
     .look-posts {
         width: 50%;
         height: 100%;
@@ -1941,10 +1944,17 @@ MEDIA
 
     /* Contacts */
     .contacts {
-        display: none;
+        /*display: none;*/
     }
     .contacts-logo-form {
         padding: 0;
+    }
+    .contacts-heading {
+        width: 70%;
+    }
+    .contacts-logo-heading-block{
+        margin-top: 35px;
+        justify-content: center;
     }
 
     /* Out contacts */
@@ -2021,9 +2031,41 @@ MEDIA
         font-size: 14px;
     }
     #submit-but {
-        justify-content: center;
+        justify-content: flex-end;
     }
 
+    .catalog-right-gray-tr {
+        right: 0;
+        top: 0;
+        border-top: 0 solid transparent;
+        border-right: 100vw solid var(--gray-color);
+        border-bottom: 210px solid transparent;
+
+    }
+    .catalog-right-blue-tr {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 225px;
+
+        /*border: solid blue 2px;*/
+    }
+
+    .catalog-left-gray-tr {
+        bottom: 0;
+
+        border-top: 285px solid transparent;
+        border-left: 99vw solid var(--gray-color);
+        border-bottom: 0 solid transparent;
+    }
+    .catalog-left-blue-tr {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 225px;
+
+        /*border: solid blue 2px;*/
+    }
 }
 
 @media screen and (max-width: 350px){
