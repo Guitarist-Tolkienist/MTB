@@ -319,6 +319,7 @@ header {
 .heading-picture>img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .item-content {
@@ -806,6 +807,7 @@ header {
 .services-item-icon>img {
     width: 80%;
     height: 80%;
+    object-fit: cover;
 }
 .services-item-text{
     /*border: solid 2px green;*/
@@ -1106,6 +1108,7 @@ header {
 .social-icon>img{
     width: 85%;
     height: 85%;
+    object-fit: cover;
 }
 /* Contacts*/
 .contacts-footer-page {
@@ -1364,7 +1367,11 @@ footer {
 }
 
 
+/*
 
+MEDIA
+
+*/
 @media screen and (max-width: 990px){
     body {
         overflow-x: hidden;
@@ -1441,6 +1448,7 @@ footer {
     .slider-image-block>img {
         width: 100%;
         height: 100%;
+        object-fit: cover;
     }
 
     /* Train Items */
@@ -1488,8 +1496,13 @@ footer {
         transform: none;
     }
     .heading-text, .heading-text-left, .heading-text-right {
+        height: 15%;
+        font-size: 13px;
         text-align: center;
         justify-content: center;
+    }
+    .heading-picture {
+        height: 85%;
     }
 
     .train-item .item-heading, .item-content {
@@ -1618,7 +1631,7 @@ footer {
         justify-content: flex-end;
     }
     .catalog-button-place-text-area {
-        border: solid blue 2px;
+        /*border: solid blue 2px;*/
         width: 100%;
         padding: 0;
         /*padding: 10px 0;*/
@@ -1914,6 +1927,8 @@ footer {
     footer {
         flex-direction: column;
         align-items: center;
+
+        text-align: center;
     }
     .footer-block {
         flex-direction: column;
