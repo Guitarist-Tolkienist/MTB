@@ -1956,7 +1956,7 @@ MEDIA
         padding: 0;
     }
     .contacts-heading {
-        width: 70%;
+        width: 100%;
         margin-left: 0;
         font-size: 35px;
     }
@@ -2086,10 +2086,12 @@ MEDIA
 @media screen and (max-width: 360px) {
     .contacts-logo-heading {
         /*border: solid 1px green;*/
-        font-size: 75px;
+        font-size: 68px;
     }
 
     .contacts-logo-upheading {
         font-size: 20px;
+
+        text-align: center;
     }
 }
