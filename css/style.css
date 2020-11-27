@@ -2021,6 +2021,7 @@ MEDIA
     /* Footer */
     .contacts-footer-page {
         /*display: none;*/
+        margin-top: 350px;
     }
     footer {
         flex-direction: column;
@@ -2072,10 +2073,10 @@ MEDIA
     }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 360px){
     .contacts-logo-heading {
         /*border: solid 1px green;*/
-        font-size: 60px;
+        font-size: 75px;
     }
 
     .contacts-logo-upheading {
