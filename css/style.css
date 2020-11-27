@@ -1977,11 +1977,11 @@ MEDIA
     .our-contacts-block {
         position: relative;
         height: auto;
-
-        display: none;
     }
     .our-contacts-row {
         flex-direction: column;
+
+        display: none;
     }
     .phones-container {
         margin-top: 30px;
