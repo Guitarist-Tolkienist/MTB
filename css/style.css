@@ -2088,6 +2088,8 @@ MEDIA
     }
 }
 
-@media screen and (width: 375 ) {
-
+@media screen and (width: 375px ) {
+    .page-screen {
+        border: solid 2px blue;
+    }
 }
