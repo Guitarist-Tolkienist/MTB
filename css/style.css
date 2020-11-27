@@ -1886,6 +1886,8 @@ MEDIA
     .contacts-logo-heading {
         /*border: solid 1px green;*/
         font-size: 79px;
+
+        margin: 0;
     }
 
     .services-bar {
@@ -1965,11 +1967,7 @@ MEDIA
 
     /* Out contacts */
     .our-contacts {
-        border: red 2px solid;
         width: 100%;
-
-        background-color: purple;
-        margin-top: 120px;
         height: auto;
         position: relative;
         /*display: none;*/
@@ -1980,8 +1978,6 @@ MEDIA
     }
     .our-contacts-row {
         flex-direction: column;
-
-
     }
     .phones-container {
         margin-top: 30px;
@@ -2029,7 +2025,6 @@ MEDIA
     /* Footer */
     .contacts-footer-page {
         /*display: none;*/
-        margin-top: 850px;
     }
     footer {
         flex-direction: column;
