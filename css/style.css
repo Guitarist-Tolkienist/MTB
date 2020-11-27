@@ -1392,7 +1392,10 @@ footer {
 MEDIA
 
 */
-@media screen and (max-width: 990px) and (min-width: 360px) {
+@media screen and (max-width: 990px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
     body {
         overflow-x: hidden;
     }
