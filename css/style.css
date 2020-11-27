@@ -1960,6 +1960,9 @@ MEDIA
         margin-left: 0;
         font-size: 35px;
     }
+    .contacts-logo-block {
+        padding: 0;
+    }
     .contacts-logo-heading-block{
         margin-top: 35px;
         justify-content: center;
