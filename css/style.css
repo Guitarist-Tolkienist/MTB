@@ -1392,7 +1392,7 @@ footer {
 MEDIA
 
 */
-@media screen and (max-width: 990px){
+@media screen and (max-width: 990px) or (min-width: 360px) {
     body {
         overflow-x: hidden;
     }
@@ -2074,7 +2074,7 @@ MEDIA
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 360px) {
     .contacts-logo-heading {
         /*border: solid 1px green;*/
         font-size: 75px;
@@ -2083,5 +2083,8 @@ MEDIA
     .contacts-logo-upheading {
         font-size: 20px;
     }
+}
+
+@media screen and (width: 375 ) {
 
 }
