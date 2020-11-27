@@ -1143,7 +1143,7 @@ header {
     /*border: solid red 2px;*/
 }
 .contacts-heading {
-    width: 30%;
+    width: 50%;
     color: var(--milk-color);
     text-shadow: -1px 12px 15px rgba(0,0,0,0.34);
     font-family: "Franclin Gothic Heavy";
@@ -1259,16 +1259,17 @@ footer {
 }
 .footer-block>div {
     text-align: center;
+
+    font-size: 18px;
 }
 .footer-rights {
     /*border: solid green 2px;*/
 }
 .footer-contacts {
     /*border: solid blue 2px;*/
-    display: inherit;
+    display: flex;
     justify-content: space-evenly;
 }
-
 
 .triangle {
     position: absolute;
@@ -1951,6 +1952,8 @@ MEDIA
     }
     .contacts-heading {
         width: 70%;
+        margin-left: 0;
+        font-size: 35px;
     }
     .contacts-logo-heading-block{
         margin-top: 35px;
