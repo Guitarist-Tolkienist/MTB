@@ -1886,7 +1886,7 @@ MEDIA
     .contacts-logo-heading {
         /*border: solid 1px green;*/
         font-size: 79px;
-
+        border: solid 1px green;
         margin: 0;
     }
 
@@ -2085,7 +2085,6 @@ MEDIA
 
 @media screen and (max-width: 360px) {
     .contacts-logo-heading {
-        border: solid 1px green;
         font-size: 66px;
     }
 
