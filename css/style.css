@@ -1965,7 +1965,9 @@ MEDIA
 
     /* Out contacts */
     .our-contacts {
-        /*border: red 2px solid;*/
+        border: red 2px solid;
+        width: 100%;
+
         background-color: purple;
         margin-top: 120px;
         height: auto;
@@ -2077,6 +2079,13 @@ MEDIA
     }
 }
 
+
+@media screen and (width: 375px ) {
+    .our-contacts {
+        /*border: solid 2px blue;*/
+    }
+}
+
 @media screen and (max-width: 360px) {
     .contacts-logo-heading {
         /*border: solid 1px green;*/
@@ -2085,11 +2094,5 @@ MEDIA
 
     .contacts-logo-upheading {
         font-size: 20px;
-    }
-}
-
-@media screen and (width: 375px ) {
-    .page-screen {
-        border: solid 2px blue;
     }
 }
