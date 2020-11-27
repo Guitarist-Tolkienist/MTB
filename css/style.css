@@ -1977,6 +1977,8 @@ MEDIA
     .our-contacts-block {
         position: relative;
         height: auto;
+
+        display: none;
     }
     .our-contacts-row {
         flex-direction: column;
