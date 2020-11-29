@@ -43,15 +43,17 @@ body {
 }
 
 header {
-    height: 20vh;
+    height: 10vh;
 }
 .nav {
-    height: 20vh;
+    height: 100%;
 
     transition: 1s;
 }
 .navbar {
+    height: 100%;
     background-color: var(--blue-color);
+    border-bottom: rgba(0, 0, 0, 0.2) solid 1px;
 }
 .navbar-brand {
     /*width: 10%;*/
@@ -98,7 +100,7 @@ header {
     position: relative;
 
     background-color: black;
-    height: 100vh;
+    height: 90vh;
     /*border: solid 2px red;*/
 }
 .slick-list {
@@ -179,7 +181,7 @@ header {
     /*border: solid red 2px;*/
 
     position: absolute;
-    bottom: 32%;
+    bottom: 40%;
 }
 .front-heading-main-heading-block {
     height: 100%;
@@ -1171,16 +1173,21 @@ header {
     margin-left: 10%;
 }
 .contacts-logo-form {
-    height: 60%;
+    height: 75%;
 }
 .contacts-logo-form-row {
     height: 100%;
+
+    display: flex;
 }
 
 .contacts-logo-block,.contacts-form-block {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /*border: solid green 2px;*/
+    flex-basis: 50%;
 }
 .contacts-logo-block {
     /*border: solid green 2px;*/
@@ -1230,8 +1237,15 @@ header {
 }
 
 .contacts-logo-heading-block{
-    width: 85%;
+    width: 100%;
+    height: 100%;
     /*border: 2px solid red;*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     color: var(--white-color);
 }
 .contacts-logo{
@@ -1239,7 +1253,9 @@ header {
 }
 .contacts-logo-upheading-block {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .contacts-logo-upheading {
     font-weight: 900;
@@ -1251,6 +1267,8 @@ header {
 
     font-size: 115px;
     font-weight: 1000;
+
+    margin: 0;
 }
 /* Footer */
 footer {
@@ -1390,6 +1408,7 @@ footer {
 
     top: 0;
     right: 0;
+    z-index: -1;
 }
 
 .footer-bottom-pink-tr {
@@ -1443,19 +1462,19 @@ MEDIA
 
     /* Navbar */
     header {
-        width: 100%;
-        max-height: 100%;
-
-        /*display: none;*/
     }
     .navbar {
         width: 100%;
         position: absolute;
         top: 0;
         z-index: 100;
+
+        /*display: none;*/
     }
     .navbar-collapse {
         z-index: 10;
+
+        overflow-y: visible;
     }
     .navbar-logo-image {
         width: 35%;
@@ -2023,12 +2042,16 @@ MEDIA
         margin-top: 35px;
         justify-content: center;
     }
+    .contacts-logo-form-row {
+        flex-direction: column;
+    }
 
     /* Out contacts */
     .our-contacts {
         width: 100%;
         height: auto;
         position: relative;
+
         /*display: none;*/
     }
     .our-contacts-block {
