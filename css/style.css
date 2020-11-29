@@ -374,7 +374,8 @@ header {
 .page-heading-text {
     font-size: 50px;
     font-weight: 900;
-    opacity: 0.65;
+
+    opacity: .8;
 }
 
 /* Catalog Button*/
@@ -397,7 +398,7 @@ header {
 }
 .catalog-major-heading-block {
     position: relative;
-    height: 50%;
+    height: 40px;
     /*border: solid yellowgreen 2px;*/
 
     display: flex;
@@ -414,9 +415,12 @@ header {
 
     text-shadow: 0px 0px 15px black;
 }
+.catalog-major-heading-block {
+    height: 50px;
+}
 .catalog-minor-heading-block {
     position: relative;
-    height: 50%;
+    height: 55px;
     /*border: solid green 2px;*/
 
     display: flex;
@@ -424,23 +428,30 @@ header {
     justify-content: flex-end;
 }
 .catalog-minor-heading {
-    height: 100%;
+    height: auto;
+
     /*border: solid red 2px;*/
 
     margin-right: 5%;
-    margin-bottom: 100px;
+    /*margin-bottom: 10px;*/
+
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
 }
 .under-heading {
+    height: 100%;
     color: white;
     font-family: "Franclin Gothic Heavy";
     font-size: 38px;
+    text-shadow: 2px 2px 10px #000000;
 
-    text-shadow: -1px 13px 15px rgba(0,0,0,0.34);
     text-align: right;
     overflow-x: hidden;
+    line-height: 1.4;
+
+    opacity: .9;
 }
 
 .button-place {
@@ -1550,6 +1561,9 @@ MEDIA
         height: 85%;
     }
 
+    .train-item:last-child {
+        margin-bottom: 28px;
+    }
     .train-item .item-heading, .item-content {
         width: 100%;
         height: 250px;
@@ -1588,8 +1602,27 @@ MEDIA
         /*display: none;*/
     }
 
-    #train-main-heading, .under-heading{
+    #train-main-heading{
         font-size: 20px;
+    }
+    .under-heading {
+        font-size: 19px;
+    }
+
+    .page-heading-place {
+        position: relative;
+        top: 0;
+        padding: 0 10px;
+
+        /*border: blue 2px solid;*/
+    }
+    .trainer-heading {
+        margin-left: 0;
+        font-size: 45px;
+    }
+    .catalog-minor-heading {
+        margin-right: 0;
+        /*margin-bottom: 75px;*/
     }
 
     .button-place {
@@ -1630,6 +1663,9 @@ MEDIA
         width: 120px;
         height: 35px;
         font-size: 15px;
+    }
+    #cat-btn {
+        bottom: 50px;
     }
     /* Doubt */
     .doubt-page {
@@ -2028,14 +2064,22 @@ MEDIA
         justify-content: flex-end;
     }
 
+    .page-screen {
+        overflow: hidden;
+    }
+
     .catalog-right-gray-tr {
         /*right: 0;*/
         top: 0;
         /*bottom: 0;*/
         border-top: 0 solid transparent;
-        border-right: 99vw solid var(--gray-color);
-        border-bottom: 285px solid transparent;
-
+        border-right: 120vw solid var(--gray-color);
+        border-bottom: 205px solid transparent;
+        background-color: transparent;
+    }
+    .triangle-to-rotate-block2 {
+        width: 75%;
+        transform: rotate(0deg);
     }
     .catalog-right-blue-tr {
         position: absolute;
@@ -2047,9 +2091,6 @@ MEDIA
     }
 
 
-    .page-screen {
-        overflow: hidden;
-    }
     .catalog-left-gray-tr {
         bottom: 0;
 
@@ -2063,6 +2104,7 @@ MEDIA
         width: 75%;
         height: 100%;
         /*border: solid green 2px;*/
+        transform: rotate(0deg);
     }
     .catalog-left-blue-tr {
         position: absolute;

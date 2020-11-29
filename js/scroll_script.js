@@ -52,7 +52,7 @@ if (getWidth() > 990) {
     console.log(getWidth())
     context.moveTo(0, 10);
 
-    context.lineTo(300, 80);
+    context.lineTo(300, 83);
     context.lineTo(0, 140);
 
     context.lineTo(0, 10);
@@ -73,14 +73,23 @@ canvas_height = canvas.offsetHeight;
 canvas_width = canvas.offsetWidth;
 
 context.beginPath();
-context.moveTo(300, 0);
+if (getWidth() > 990) {
+    context.moveTo(300, 0);
 
-context.lineTo(0, 55);
-context.lineTo(300, 135);
+    context.lineTo(0, 55);
+    context.lineTo(300, 135);
 
-context.lineTo(300, 0);
+    context.lineTo(300, 0);
+} else  {
+    context.moveTo(300, 10);
 
+    context.lineTo(40, 55);
+    context.lineTo(300, 127);
+
+    context.lineTo(300, 10);
+}
 context.closePath();
+
 context.shadowColor = "rgba(0, 0, 0, 0.2)";
 context.shadowBlur = 15;
 context.shadowOffsetX = 2;
