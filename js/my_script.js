@@ -10,3 +10,16 @@ container.forEach( function (card) {
         }
     }
 })
+
+var nav = document.getElementById('navigation')
+var hamburger = document.getElementById("hamburger-button")
+var collapse_div = document.getElementById("navbarSupportContent")
+
+hamburger.onclick = function () {
+    if (collapse_div.classList.contains("show")) {
+        nav.classList.remove("navbar-border-show");
+    } else {
+        nav.classList.add("navbar-border-show");
+    }
+}
+

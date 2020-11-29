@@ -562,6 +562,7 @@ header {
 }
 .common-heading {
     text-shadow: -1px 13px 15px rgba(0,0,0,0.34);
+    text-shadow: 3px 7px 13px rgba(0,0,0,0.34);;
 }
 .doubt-middle {
     margin-top: 20px;
@@ -1456,6 +1457,9 @@ MEDIA
     .navbar-logo-image {
         width: 35%;
     }
+    .navbar-border-show {
+        border: 1px solid black;
+    }
 
     /* SLider */
     .slider {
@@ -1977,6 +1981,9 @@ MEDIA
     /* Clients */
     .our-clients-page {
     }
+    .our-clients-block {
+        margin-top: 20px;
+    }
     .clients-item {
         margin-left: 0;
     }
@@ -1991,6 +1998,10 @@ MEDIA
     }
     .contacts-logo-form {
         padding: 0;
+    }
+    .contacts-logo {
+        display: flex;
+        justify-content: center;
     }
     .contacts-heading {
         width: 100%;
@@ -2029,7 +2040,8 @@ MEDIA
     }
     .our-contacts-map-block {
         /*border: green solid 2px;*/
-        height: 60vh;
+        height: auto;
+        margin-bottom: 20px;
     }
     .address-text-block {
         font-size: 18px;
