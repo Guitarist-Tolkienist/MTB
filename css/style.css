@@ -1587,10 +1587,15 @@ MEDIA
 
         /*display: none;*/
     }
+
     #train-main-heading, .under-heading{
         font-size: 20px;
     }
 
+    .button-place {
+        padding: 0;
+        height: 280px;
+    }
     .catbutton-place-headings-block {
         width: 100%;
         height: 35%;
@@ -1689,17 +1694,6 @@ MEDIA
     }
     .prof-text-part {
         padding-top: 0;
-    }
-
-    .button-place {
-        padding: 0;
-        /*width: 100%;*/
-        /*height: 35%;*/
-
-        /*position: absolute;*/
-        /*bottom: 0;*/
-        /*border: solid 2px red;*/
-        /*color: white;*/
     }
 
     .look-posts {
