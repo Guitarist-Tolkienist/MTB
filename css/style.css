@@ -1481,8 +1481,20 @@ MEDIA
     }
 
     .slider-front-heading {
-        display: none;
+        bottom: 80px;
     }
+    .front-heading-main-heading-block {
+        padding: 10px 5px;
+    }
+    .front-heading-main-heading {
+        font-size: 15px;
+        font-weight: 700;
+        /*border: solid 2px red;*/
+    }
+    .front-heading-small-heading {
+        font-size: 10px;
+    }
+
     .slick-track {
         user-drag: none;
         user-select: none;
