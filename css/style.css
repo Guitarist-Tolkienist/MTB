@@ -1480,6 +1480,11 @@ MEDIA
         padding-left: 0;
     }
 
+    .slick-active>button {
+        background-color: var(--blue-color);
+    }
+
+
     .slider-front-heading {
         bottom: 80px;
     }
