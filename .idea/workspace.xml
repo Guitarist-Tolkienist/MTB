@@ -19,11 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03d99e09-3c30-49a3-9d31-0c4ccfe26a4b" name="Default Changelist" comment="triangles part in catalog-page edited">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="03d99e09-3c30-49a3-9d31-0c4ccfe26a4b" name="Default Changelist" comment="triangles finished">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scroll_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scroll_script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,14 +97,7 @@
       <workItem from="1606429539347" duration="764000" />
       <workItem from="1606478481234" duration="7634000" />
       <workItem from="1606502845519" duration="5771000" />
-      <workItem from="1606660606812" duration="7690000" />
-    </task>
-    <task id="LOCAL-00010" summary="other blocks edited">
-      <created>1606337572596</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1606337572596</updated>
+      <workItem from="1606660606812" duration="8065000" />
     </task>
     <task id="LOCAL-00011" summary="other blocks edited">
       <created>1606338204535</created>
@@ -445,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606665904926</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="triangles finished">
+      <created>1606670342456</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1606670342456</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +464,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aaa" />
     <MESSAGE value="logo added;&#10;images in slider no more stretches" />
     <MESSAGE value="- centered text in footer;&#10;- changed train-items sizes" />
     <MESSAGE value="aa" />
@@ -492,7 +488,8 @@
     <MESSAGE value="contacts-logo-heading color removed" />
     <MESSAGE value="triangles modified" />
     <MESSAGE value="triangles part in catalog-page edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="triangles part in catalog-page edited" />
+    <MESSAGE value="triangles finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="triangles finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="208" key="#Notifications" timestamp="1606338251859">
@@ -516,10 +513,10 @@
       <screen x="59" y="24" width="1309" height="744" />
     </state>
     <state x="207" y="24" key="SettingsEditor/59.24.1309.744@59.24.1309.744" timestamp="1606306852233" />
-    <state x="313" y="119" key="Vcs.Push.Dialog.v2" timestamp="1606665907721">
+    <state x="313" y="119" key="Vcs.Push.Dialog.v2" timestamp="1606670344231">
       <screen x="59" y="24" width="1309" height="744" />
     </state>
-    <state x="313" y="119" key="Vcs.Push.Dialog.v2/59.24.1309.744@59.24.1309.744" timestamp="1606665907721" />
+    <state x="313" y="119" key="Vcs.Push.Dialog.v2/59.24.1309.744@59.24.1309.744" timestamp="1606670344231" />
     <state x="376" y="168" key="run.anything.popup" timestamp="1606330604368">
       <screen x="59" y="24" width="1309" height="744" />
     </state>
