@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03d99e09-3c30-49a3-9d31-0c4ccfe26a4b" name="Default Changelist" comment="contacts-logo-heading font-size lower&#10;colored also" />
+    <list default="true" id="03d99e09-3c30-49a3-9d31-0c4ccfe26a4b" name="Default Changelist" comment="contacts-logo-heading color removed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scroll_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scroll_script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,21 +99,8 @@
       <workItem from="1606404534277" duration="22030000" />
       <workItem from="1606429539347" duration="764000" />
       <workItem from="1606478481234" duration="7634000" />
-      <workItem from="1606502845519" duration="3565000" />
-    </task>
-    <task id="LOCAL-00006" summary="improved sliding card effect">
-      <created>1606328890111</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1606328890111</updated>
-    </task>
-    <task id="LOCAL-00007" summary="improved sliding card effect">
-      <created>1606330698402</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1606330698402</updated>
+      <workItem from="1606502845519" duration="5771000" />
+      <workItem from="1606660606812" duration="2697000" />
     </task>
     <task id="LOCAL-00008" summary="debugged">
       <created>1606335323296</created>
@@ -439,7 +431,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606506318329</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="contacts-logo-heading font-size lower&#10;colored also">
+      <created>1606506584516</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1606506584516</updated>
+    </task>
+    <task id="LOCAL-00056" summary="contacts-logo-heading color removed">
+      <created>1606506711918</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1606506711918</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +467,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="logo font-size modified;" />
     <MESSAGE value="doubt page edited" />
     <MESSAGE value="almost finished" />
     <MESSAGE value="aaa" />
@@ -486,7 +491,8 @@
     <MESSAGE value="contacts-logo-heading colored" />
     <MESSAGE value="contacts-logo-heading font-size lower" />
     <MESSAGE value="contacts-logo-heading font-size lower&#10;colored also" />
-    <option name="LAST_COMMIT_MESSAGE" value="contacts-logo-heading font-size lower&#10;colored also" />
+    <MESSAGE value="contacts-logo-heading color removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="contacts-logo-heading color removed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="208" key="#Notifications" timestamp="1606338251859">
@@ -510,10 +516,10 @@
       <screen x="59" y="24" width="1309" height="744" />
     </state>
     <state x="207" y="24" key="SettingsEditor/59.24.1309.744@59.24.1309.744" timestamp="1606306852233" />
-    <state x="313" y="119" key="Vcs.Push.Dialog.v2" timestamp="1606506320148">
+    <state x="313" y="119" key="Vcs.Push.Dialog.v2" timestamp="1606506713605">
       <screen x="59" y="24" width="1309" height="744" />
     </state>
-    <state x="313" y="119" key="Vcs.Push.Dialog.v2/59.24.1309.744@59.24.1309.744" timestamp="1606506320148" />
+    <state x="313" y="119" key="Vcs.Push.Dialog.v2/59.24.1309.744@59.24.1309.744" timestamp="1606506713605" />
     <state x="376" y="168" key="run.anything.popup" timestamp="1606330604368">
       <screen x="59" y="24" width="1309" height="744" />
     </state>

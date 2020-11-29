@@ -1,3 +1,13 @@
+function getWidth() {
+    return Math.max(
+        document.body.scrollWidth,
+        document.documentElement.scrollWidth,
+        document.body.offsetWidth,
+        document.documentElement.offsetWidth,
+        document.documentElement.clientWidth
+    );
+}
+
 var top_scroll;
 
 var animateClassAnimated = "animated"
@@ -31,11 +41,22 @@ canvas_height = canvas.offsetHeight;
 canvas_width = canvas.offsetWidth;
 
 context.beginPath();
-context.moveTo(-10, 10);
+if (getWidth() > 990) {
+    context.moveTo(-10, 10);
 
-context.lineTo(300, 85);
-context.lineTo(0, 140);
-context.lineTo(-10, 10);
+    context.lineTo(300, 85);
+    context.lineTo(0, 140);
+
+    context.lineTo(-10, 10);
+} else {
+    console.log(getWidth())
+    context.moveTo(0, 10);
+
+    context.lineTo(300, 80);
+    context.lineTo(0, 140);
+
+    context.lineTo(0, 10);
+}
 
 context.closePath();
 context.shadowColor = "rgba(0, 0, 0, 0.2)";
