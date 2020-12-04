@@ -22,12 +22,7 @@ $(document).ready(function(){
         var wn = $(window).scrollTop();
         if (wn > 1000) {
             $("#cat-btn").addClass(animateClassAnimated + " " + animateClassBounceInUp)
-        } else if (wn > 50) {
-            $("#navigation").addClass(backgrOpacity)
-        } else if(wn < 1100){
-            if (wn < 150) {
-                $("#navigation").removeClass(backgrOpacity)
-            }
+        } else if(wn < 1100) {
             $("#cat-btn").removeClass(animateClassAnimated + " " + animateClassBounceInUp);
         }
     });
