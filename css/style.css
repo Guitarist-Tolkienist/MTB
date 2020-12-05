@@ -322,7 +322,6 @@ header {
 }
 .heading-picture {
     height: 75%;
-    opacity: 0.7;
 }
 .heading-picture>img {
     height: 100%;
