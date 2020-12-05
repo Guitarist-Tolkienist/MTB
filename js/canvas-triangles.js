@@ -1,11 +1,10 @@
+'use strict'
 
 var blue_color = "#76c7c0";
 
 
 var canvas = document.getElementById("catalog-left-blue-tr");
 var context = canvas.getContext('2d');
-canvas_height = canvas.offsetHeight;
-canvas_width = canvas.offsetWidth;
 
 context.beginPath();
 if (getWidth() > 990) {
@@ -32,11 +31,17 @@ context.shadowOffsetY = 5;
 context.fillStyle = blue_color;
 context.fill();
 
-/*New blue trianlge*/
+/*New blue triangle*/
+
+let left_gray_tr = document.getElementById("catalog-left-gray-tr");
+let cs = window.getComputedStyle(left_gray_tr, null)
+let lgT_borderTop = cs["border-top"].slice(" ")
+
+let button_place = document.getElementById("button-place");
+button_place.style.height = (lgT_borderTop.substr(0, 3)) + "px"
+
 canvas = document.getElementById("catalog-right-blue-tr");
 context = canvas.getContext('2d');
-canvas_height = canvas.offsetHeight;
-canvas_width = canvas.offsetWidth;
 
 context.beginPath();
 if (getWidth() > 990) {
