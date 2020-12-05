@@ -1290,11 +1290,14 @@ footer {
     display: flex;
     justify-content: center;
 
-    position: relative;
+    position: absolute;
+    bottom: 0;
     z-index: 1;
 
     color: white;
     /*border: solid black 2px;*/
+
+    margin-bottom: 10px;
 }
 .footer-block {
     width: 75%;
@@ -1302,6 +1305,10 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+
+    /*margin-bottom: 10px;*/
+    /*margin-bottom: 0;*/
 }
 .footer-block>div {
     text-align: center;
@@ -1439,6 +1446,14 @@ footer {
 MEDIA
 
 */
+@media screen and (min-width: 1500px) {
+    .footer-block {
+        width: 60%;
+
+        /*border: solid red 2px;*/
+    }
+}
+
 @media screen and (max-width: 990px) {
     html {
         -webkit-text-size-adjust: none;
