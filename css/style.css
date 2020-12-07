@@ -448,7 +448,7 @@ header {
 
     /*border: solid red 2px;*/
 
-    margin-right: 5%;
+    /*margin-right: 5%;*/
     /*margin-bottom: 10px;*/
 
     display: flex;
@@ -471,7 +471,8 @@ header {
 }
 
 .button-place {
-    padding: 25px 10px;
+    padding: 20px;
+    padding-bottom: 0;
     width: 100%;
     height: 35%;
 
@@ -793,6 +794,7 @@ header {
 }
 
 .services-item {
+    /*width: 25%;*/
     height: 100%;
     display: flex;
     justify-content: center;
@@ -833,9 +835,8 @@ header {
 
 .services-item-icon {
     /*border: solid 2px orange;*/
-    width: 35%;
+    width: 40%;
     max-width: 40%;
-    height: 75%;
 
     display: flex;
     justify-content: center;
@@ -846,17 +847,20 @@ header {
     height: 80%;
     object-fit: cover;
 }
-.services-item-text{
+.services-item-text {
     /*border: solid 2px green;*/
-    width: 65%;
-    height: 75%;
-    font-weight: 700;
+    width: 60%;
+
+    font-weight: 600;
     font-size: 15px;
 
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+}
+.services-item-icon, .services-item-text {
+    height: 80%;
 }
 
 .serv-main {
@@ -1153,6 +1157,10 @@ header {
     width: 10%;
 
     margin-right: 10%;
+    transition: ease-out .5s;
+}
+.social-icon:hover {
+    transform: scale(1.1);
 }
 .social-icon>img{
     width: 85%;
@@ -1321,6 +1329,14 @@ footer {
     /*border: solid blue 2px;*/
     display: flex;
     justify-content: space-evenly;
+}
+.footer-number-link, .footer-number-link:hover, .footer-email-link, .footer-email-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.footer-number-link:hover, .footer-email-link:hover {
+    transition: ease-in-out .3s;
+    color: black;
 }
 
 .triangle {

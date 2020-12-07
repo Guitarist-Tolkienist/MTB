@@ -48,7 +48,7 @@ if (getWidth() > 990) {
     context.moveTo(300, 0);
 
     context.lineTo(0, 55);
-    context.lineTo(300, 135);
+    context.lineTo(300, 130);
 
     context.lineTo(300, 0);
 } else  {
